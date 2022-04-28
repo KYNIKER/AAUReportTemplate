@@ -1,0 +1,20 @@
+\input{setup/preamble.tex}%document setup and package management.
+\input{setup/hyphenations.tex}%set specific hyphenations 
+\input{setup/macros.tex}%macro command setup
+
+%%%%%%%%
+%README%
+%%%%%%%%
+%This template is a modification of the AAU report template published on Overleaf. The modifications try to update the style of the old template and better accommodate the APA style.
+
+\begin{document}
+\pagenumbering{roman}
+\input{setup/firstPagesSetup/frontpage.tex}
+\input{setup/firstPagesSetup/abstract.tex}
+\input{setup/firstPagesSetup/preface.tex}
+\newpage\pdfbookmark[0]{Contents}{ch:contents}
+\tableofcontents
+\pagestyle{fancy}
+\pagenumbering{arabic}
+\input{misc/TikzExamples.tex}
+\end{document}

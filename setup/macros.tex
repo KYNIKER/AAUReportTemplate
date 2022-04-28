@@ -1,0 +1,37 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%MACROS FOR FIRSTPAGESSETUP%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\titleInfo}[5]{
+	{\Huge #1}\\
+	{\large #2}\\
+	\vspace*{11pt}\\
+	\hyperref[ch:preface]{\parbox[c]{0.7\paperwidth}{\centering #3}}\\
+	{\footnotesize Department of Computer science, Aalborg univerity}\\
+	{\footnotesize $\text{#4} \mid \text{#5}$}\\
+	{\footnotesize \today{}}\\%change this to the due date to properly follow the APA guidelines
+	\vspace*{11pt}
+}
+
+\newcommand{\projectInfo}[4]{
+	\textbf{Title:}\\
+	#1\bigskip\par
+	\textbf{Theme:}\\
+	#2\bigskip\par
+	\textbf{Participants:}\\
+	#3\bigskip\par
+	\textbf{Supervisor:}\\
+	#4\bigskip\par
+
+	\vspace*{1cm}This project was made in the xxx semester of \the\year{} and completed \today.\\
+	It has resulted in this \pageref{LastPage} page report of one copy.
+}
+
+\newcommand{\prefaceParticipant}[3]{
+	\begin{minipage}[b]{0.45\textwidth}
+ 		\centering
+ 		\includegraphics[scale=1]{./setup/firstPagesSetup/signatures/#1}
+ 		\rule{\textwidth}{0.5pt}\\
+   		#2\\
+ 		{\footnotesize \href{mailto:#3}{\color{aauGray}#3}}
+	\end{minipage}
+}

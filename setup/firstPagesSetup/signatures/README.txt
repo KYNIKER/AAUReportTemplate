@@ -1,0 +1,1 @@
+This folder stores the signatures used in the preface. Upload the signature as a pdf/png file with a size of 58x30.

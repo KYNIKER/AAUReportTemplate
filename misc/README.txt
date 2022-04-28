@@ -1,0 +1,1 @@
+The fonts folder is currently not in use. It is include as it is the primary font of AAU and a large part of their visual indenity (see https://www.design.aau.dk/om-aau-design/Typografi/). However including custom fonts in LaTeX is compiler specific and therefore not implemented in this template.
